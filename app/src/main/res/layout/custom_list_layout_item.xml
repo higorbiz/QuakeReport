@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+<TextView
+    android:id="@+id/magnitudeId"
+    android:layout_width="36dp"
+    android:layout_height="36dp"
+    tools:text="7.1"
+    android:layout_margin="15dp"
+    android:background="@drawable/magnitude_circle"
+    android:gravity="center"
+    android:fontFamily="sans-serif-medium"
+    android:layout_gravity="center_vertical"
+    />
+
+    <TextView
+        android:id="@+id/locationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="San Francisco"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/dateID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Feb 2, 2016"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_gravity="center_vertical"
+        />
+
+
+</LinearLayout>
